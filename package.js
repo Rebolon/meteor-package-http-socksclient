@@ -1,8 +1,8 @@
 Package.describe({
   name: 'rebolon:socks5',
   version: '0.0.1',
-  summary: '',
-  git: 'https://bitbucket.org/rebolon/socks5.git'
+  summary: 'This package allow to use Tor proxy. It uses almost same code provided by mattcg/socks5-http-client',
+  git: 'https://github.com/Rebolon/meteor-package-http-socksclient.git'
 });
 
 Package.onUse(function(api) {
