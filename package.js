@@ -11,7 +11,8 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.6')
-  api.addFiles(['main.js'], 'server')
+  api.use(['ecmascript', ], 'server')
+  api.addFiles(['src/socks.js', 'src/socks-ssl.js', ], 'server')
 
   // symbol exports
   api.mainModule('main.server.js', 'server')

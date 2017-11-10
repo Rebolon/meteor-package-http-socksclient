@@ -49,7 +49,7 @@ function Socks5ClientHttpsAgent(options) {
     this.socksPort = options.socksPort || 9050
 
     this.createConnection = createConnection
-    this.getClass = Socks5ClientHttpAgent
+    this.getClass = Socks5ClientHttpsAgent
 }
 
 inherits(Socks5ClientHttpsAgent, https.Agent)
